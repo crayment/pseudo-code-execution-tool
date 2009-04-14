@@ -1,0 +1,31 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Incompatible Types in Assignment</h1>
+
+            <p>You have defined a variable to be one type but have tried
+            to assign it another type.  For example, if you defined value
+            to be an int, and then tried to set value to true, it would cause
+            an error because true is not a number, it is a conditional.  When
+            defining and using variables, make sure you use the correct types.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+int i
+
+define main{
+
+    i = true
+    # This will cause an error as a number is expected for i
+    # but it finds the conditional true
+
+}</pre>
+        </body>
+    </html>
+    

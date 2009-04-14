@@ -1,0 +1,36 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid User Input</h1>
+
+            <p>This error occurs when a user gives invalid input.  For example if you are trying to read into
+                an int variable and the user enters something that is not a number then you will get this error</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+int my_int
+bool my_bool
+string my_string
+array my_array[10]
+
+define main {
+
+read my_int
+# user must enter a number
+read my_bool
+# user must enter either 'true' or 'false'
+read my_string
+# user can enter anything that does not contain a " symbol
+read my_array[0]
+# user must enter a number
+
+}</pre>
+        </body>
+    </html>
+    

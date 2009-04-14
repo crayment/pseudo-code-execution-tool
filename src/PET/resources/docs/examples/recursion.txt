@@ -1,0 +1,32 @@
+array numbers[10]
+numbers[0] = 8
+numbers[1] = 4
+numbers[2] = 9
+numbers[3] = 1
+numbers[4] = 0
+numbers[5] = 3
+numbers[6] = 5
+numbers[7] = 2
+numbers[8] = 7
+numbers[9] = 6
+
+int i
+
+define main {
+	
+	i = 0
+	call printNumbers
+	
+}
+
+
+
+define printNumbers {
+
+	Write numbers[i]
+	i=i+1
+	
+	if(i < 10){
+		callprintNumbers
+	}
+}

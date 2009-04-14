@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<toc>
+  <tocitem text="Basics">
+      <tocitem text="Editing Code" target="user_manual/editingcode.html"/>
+      <tocitem text="Saving and Loading Code" target="user_manual/saveloadcode.html"/>
+      <tocitem text="Running Code" target="user_manual/runcode.html"/>
+      <tocitem text="What is Pseudocode?" target="user_manual/pseudocode.html" home="true" />
+  </tocitem>
+  <tocitem text="Language Specifications">
+      <tocitem text="Variables"       target="user_manual/language_specs/Variables.html"/>
+      <tocitem text="Comments"       target="user_manual/language_specs/Comments.html"/>
+      <tocitem text="If Else"       target="user_manual/language_specs/if.html"/>
+      <tocitem text="While"       target="user_manual/language_specs/while.html"/>
+      <tocitem text="Write"       target="user_manual/language_specs/Write.html"/>
+      <tocitem text="Read"       target="user_manual/language_specs/Read.html"/>
+      <tocitem text="Functions"       target="user_manual/language_specs/functions.html"/>
+      <tocitem text="FillArray"       target="user_manual/language_specs/FillArray.html"/>
+      <tocitem text="Keywords"       target="user_manual/language_specs/Keywords.html"/>
+  </tocitem>
+  <tocitem text="Error help files">
+      <tocitem text="Array Index out of bounds" target="user_manual/array_index_out_of_bounds.html"/>
+      <tocitem text="Invalid while type" target="user_manual/invalid_while_type.html"/>
+      <tocitem text="Invalid if type" target="user_manual/invalid_if_type.html"/>
+      <tocitem text="Function not defined" target="user_manual/function_not_defined.html"/>
+      <tocitem text="Invalid keyword use" target="user_manual/invalid_keyword_use.html"/>
+      <tocitem text="Invalid type (binary)" target="user_manual/invalid_type_binary.html"/>
+      <tocitem text="Invalid [] access" target="user_manual/invalid_bracket_access.html"/>
+      <tocitem text="Unclosed quotation in write command" target="user_manual/unclosed_quote_write.html"/>
+      <tocitem text="Invalid while line" target="user_manual/invalid_while_line.html"/>
+      <tocitem text="Invalid call line" target="user_manual/invalid_call_line.html"/>
+      <tocitem text="Invalid else line" target="user_manual/invalid_else_line.html"/>
+      <tocitem text="Invalid if line" target="user_manual/invalid_if_line.html"/>
+      <tocitem text="Invalid write line" target="user_manual/invalid_write_line.html"/>
+      <tocitem text="Invalid read line" target="user_manual/invalid_read_line.html"/>
+      <tocitem text="Invalid function declaration" target="user_manual/invalid_function_declaration.html"/>
+      <tocitem text="Invalid array declaration" target="user_manual/invalid_array_declaration.html"/>
+      <tocitem text="Invalid boolean declaration" target="user_manual/invalid_boolean_declaration.html"/>
+      <tocitem text="Invalid integer declaration" target="user_manual/invalid_integer_declaration.html"/>
+      <tocitem text="Invalid position" target="user_manual/invalid_position.html"/>
+      <tocitem text="Duplicate function definition" target="user_manual/duplicate_function.html"/>
+      <tocitem text="Missing main funcion definition" target="user_manual/missing_main.html"/>
+      <tocitem text="Missing closing bracket" target="user_manual/missing_closing_bracket.html"/>
+      <tocitem text="Variable can not be keyword" target="user_manual/variable_is_keyword.html"/>
+      <tocitem text="Variable already defined" target="user_manual/variable_already_defined.html"/>
+      <tocitem text="Text on } line" target="user_manual/text_on_closing_bracket_line.html"/>
+      <tocitem text="Incompatible types in assignment" target="user_manual/incompatible_types_in_assignment.html"/>
+      <tocitem text="Invalid array index" target="user_manual/invalid_array_index.html"/>
+      <tocitem text="Invalid number" target="user_manual/invalid_number.html"/>
+      <tocitem text="Unrecognized token" target="user_manual/unrecognized_token.html"/>
+      <tocitem text="Invalid not expression" target="user_manual/invalid_not_expression.html"/>
+      <tocitem text="Invalid string assignment" target="user_manual/invalid_string_assignment.html"/>
+      <tocitem text="Invalid string declaration" target="user_manual/invalid_string_declaration.html"/>
+      <tocitem text="Invalid user input" target="user_manual/invalid_user_input.html"/>
+      <tocitem text="Invalid FillArray line" target="user_manual/invalid_fill_array.html"/>
+  </tocitem>
+</toc>

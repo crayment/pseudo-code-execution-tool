@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="../main.css" >
+        
+        <title>If</title>
+    </head>
+
+    <body>
+        <h1 class="sub_title">If</h1>
+
+        <p>The conditional command (if) is used to help control the flow of your program.  When you only
+            want to execute some code if certain conditions are met you use the if command.  If takes in
+            and expression as a parameter.  The expression must evaluate to a boolean 
+            value (ie. true or false) in order for it to be valid.  If can be used in combination with else
+            to execute one piece of code in one case and another in the opposite case.  Example syntax below.</p>
+
+        <h1 class="special">Code:</h1>
+        <pre class="code">
+int i, j
+bool a, b, c
+
+define main {
+
+    if(a) {
+        #this code will be reached only if a is true
+    } else {
+        # this code will be reached only if a was false at
+        # the time the if statement was executed
+    }
+    
+    if((i == j) && b) {
+        if(c ) {
+          # if statements can have complex arguments and can
+          # also be nested  
+        } else {
+            # an else only makes sense with an if and there can
+            # only be one else per if
+        }
+    }
+
+}</pre>
+
+    </body>
+</html>
+    

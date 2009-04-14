@@ -1,0 +1,45 @@
+array numbers[10]
+int numbers_size = 10
+
+FillArray numbers
+
+
+int i, j
+int value
+
+define main {
+    
+	WriteLine "Before Sort"
+	call printNumbers
+	
+	i = 1
+	while(i < numbers_size){
+		value = numbers[i]
+		j = i-1
+		
+		while(j>=0 and numbers[j] > value){
+			numbers[j+1] = numbers[j]
+			j = j-1
+		}
+		
+		numbers[j+1] = value
+		
+		i = i+1
+		
+	}
+	
+	WriteLine "After Sort"
+	call printNumbers
+	
+}
+
+
+define printNumbers{
+
+	i=0
+	while(i<numbers_size){
+		Write numbers[i]
+		i=i+1
+	}
+	WriteLine
+}

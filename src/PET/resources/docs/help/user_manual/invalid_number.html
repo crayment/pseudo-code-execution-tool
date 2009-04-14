@@ -1,0 +1,36 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid Number</h1>
+
+            <p>Integer values can only be so high or low in PET.  When declaring
+            an int or using any number value anywhere, it must be between
+            -2147483648 and 2147483647.  Anthing lower or higher and PET will not
+            be able to handle them.  Numbers must also be whole errors, not
+            fractions or decimals.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+int a, b, c
+
+define main {
+
+a = -2147483649
+# This will cause an error as the number is too low
+
+b = 2147483648
+# This will cause an error as the number is to high
+
+c = 3.14159
+# This will cause an error as the number is not a whole value.
+
+}</pre>
+        </body>
+    </html>
+    

@@ -1,0 +1,40 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid Write Line</h1>
+
+            <p>When writing a line, you must make sure you use proper syntax.  A
+            write line can include any variables, as long as they are space seperated,
+            as long with character except for a double quotation mark as long as
+            it is inside two quotation marks.  If you try and write anything outside
+            of quotes that CANNOT be valid variables, such as symbols and numbers,
+            you have an invalid write.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+int a, b, c
+
+define main {
+
+    Write 34
+    # This will cause an error, as 34 is not a valid variable.  To write the number
+    # 34, you need to type Write "34"
+
+    Write %$#
+    # This will cause an error, as %$# is not a valid variable.
+
+    Write d
+    # This will cause an Unrecognized Token error, as d could be a variable, but it
+    # is not defined.  Read the unrecognized token error page for more information
+
+
+}</pre>
+        </body>
+    </html>
+    

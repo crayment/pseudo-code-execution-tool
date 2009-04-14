@@ -1,0 +1,47 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid Else Line</h1>
+
+            <p>There are multiple ways to have an invalid else line.
+            The first way is that if you have an else statement without an
+            if, it will not work.  Secondly, if you have anything after the word
+            else other than the opening bracket, it is an error.  Finally,
+            if you do not have an opening bracket for the else statement, it
+            is an error.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+int i
+
+define main {
+
+i = 5
+
+else {
+}
+# This will cause an error as it has no if statement
+
+if(i > 10){
+}
+else if(i < 10) {
+}
+# This will cause an error as there is more than just an opening
+# brace after the else.  PET does not handle else if statements
+
+if(i > 10){
+}
+else
+# This will cause an error as there are no brackets at all
+
+
+}</pre>
+        </body>
+    </html>
+    

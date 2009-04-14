@@ -1,0 +1,32 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid Type Binary</h1>
+
+            <p>When using binary operators you must be applied to the same types.
+            When using using ==, you must make sure that you have the same types on
+            both sides of the equal sign.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+bool a
+int b
+
+define main {
+
+if( a == b) {
+
+}
+# This will cause an error as a is a bool and b is an int, which are conflicting
+# types
+
+}</pre>
+        </body>
+    </html>
+    

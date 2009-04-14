@@ -1,0 +1,32 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="title">Compile Error</h1>
+            <h1 class="sub_title">Unrecognized Token</h1>
+
+            <p>Unrecognized token is a very common error.  If you have mispelled
+            a variable name when trying to call it, you will get unrecognized token.
+            If you have symbols where they are not supposed to be, like ! or $, then
+            you will get an unrecognized token.  Essentially, if you have an error
+            and it is not some form of specifif error, then you have a syntax error,
+            which is picked up as an unrecognized token.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+int a, b, c
+
+define main {
+
+    d = 5
+    # This will cause an error as d is not defined as anything
+
+}</pre>
+        </body>
+    </html>
+    

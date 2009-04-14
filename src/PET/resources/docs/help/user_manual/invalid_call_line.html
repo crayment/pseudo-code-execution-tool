@@ -1,0 +1,32 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid Call Line</h1>
+
+            <p>If you incorrectly call a function, you will get an invalid
+            call line error.  An incorrect function call is different from
+            an undefined function.  An incorrect function call is any call to
+            a function where no function name is given, or if the end brackets
+            of the function are missing.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+define main {
+
+
+    call
+    # This will cause an error as no function was given
+}
+
+define fun {
+
+}</pre>
+        </body>
+    </html>
+    

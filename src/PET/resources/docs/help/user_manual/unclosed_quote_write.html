@@ -1,0 +1,30 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Unclosed Quotation</h1>
+
+            <p>When writing to the terminal, you must enclose what you wish to
+            write within quotation marks.  Quotation marks must always come in
+            pairs, and if you are missing a paired quotation, you will get an
+            error.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+define main {
+
+Write "Hello World
+# This will cause an error as you are missing the end quote
+
+Write "Hello World""
+# This will cause an error as the last quote is missing a paired quote
+
+}</pre>
+        </body>
+    </html>
+

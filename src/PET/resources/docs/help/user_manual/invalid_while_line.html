@@ -1,0 +1,33 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid While Line</h1>
+
+            <p>When making a while statement, there are rules you must follow in
+            creating a correct statement.  First, if you do not have curly braces
+            opening and closing your while statement, it will cause an error.
+            Second, if you have no statement after the while, it will cause an error.
+            </p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+define main {
+
+while (a < 10)
+# This will cause an error as there are no curly braces
+
+while {
+}
+# This will cause an error as there is no statement to evaluate
+
+
+}</pre>
+        </body>
+    </html>
+    

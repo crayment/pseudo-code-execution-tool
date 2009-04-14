@@ -1,0 +1,37 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Invalid Array Declaration</h1>
+
+            <p>A mistake has been made in array declaration.  When declaring
+            an array, it must be of the form "array name[#]" where the # is
+            any number greater-than or equal to 0, and name is any
+            letter character without spaces.  If you have no number, are
+            missing brackets, have no name, or have characters after the closing
+            brace, then you will have an invalid array declaration.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+array test[]
+# This will cause an error as there is no size
+array test20
+# This will cause an error as there are no brackets
+array
+# This will cause an error as no array was declared
+array test[20]hi
+# This will cause an error as no characters can appear after the closing
+# brace
+
+define main {
+
+
+}</pre>
+        </body>
+    </html>
+    

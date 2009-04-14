@@ -1,0 +1,4 @@
+
+define main {
+	Write "Hello World!"
+}

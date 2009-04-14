@@ -1,0 +1,39 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Duplicate Function</h1>
+
+            <p>You have defined a duplicate function.  When naming
+            function you must use a different name for each function,
+            or PET will not be able to differentiate between the
+            different functions.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+define main{
+
+    call fun
+
+}
+
+define fun {
+
+    WriteLine "Hello World!"
+
+}
+
+define fun {
+
+    WriteLine "Goodbye World!"
+
+}
+</pre>
+        </body>
+    </html>
+    

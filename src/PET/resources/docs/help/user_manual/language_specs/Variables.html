@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="../main.css" >
+        
+        <title>Variables</title>
+    </head>
+
+    <body>
+        <h1 class="sub_title">Variables</h1>
+
+        <p>There are four types of variables in PET.  There syntax and user are described below.
+            Variables must be declared and given a name before they can be used.  There are specific
+            rules for where and how this can happen.  First all declarations must appear before the
+            first function definition in your file.  Second a variables name can only consist of lowercase
+            letters, uppercase letters, and the underscore symbol (_).  Also variable names can not be any
+            restricted keywords such as if or while.  For a list of keywords see the keywords file in this
+            section of the user manual.  Any other characters being used in a name will lead to a compile
+             error.</p>
+
+        <p>Variable can be assigned to using the = operator.  The left side of the expression must
+            evaluate to an appropriate value for the variable.</p>
+            
+        <p>Variables are declared using the syntax: type name [= value].  The part in [] is optional.
+            More than one variable of the same type can be declared on one line by comma separating
+            them.</p>
+
+        <p>The first type is declared using the keyword int.  int stands for integer and these types
+            can be used to store any integer value that is not extremely high or extremely low.  If you
+            reach the too high or too low mark you will probably receive and invalid number error.</p>
+            
+        <p>The second type is declared using the keyword bool.  bool stand for boolean and is capable of
+            storing only the value true or false.  Booleans (or conditionals) can come in handy for program
+            flow.  For example the if command requires that its arguments evaluate to a boolean.</p>
+        
+        <p>The third type is declared using the keyword string.  Strings are used for storing text.
+            They are mostly used for storing user input within PET.</p>
+            
+        <p>The last type is declared using the keyword array.  An array is like a container used to 
+            store multiple integers.  An array must be declared with a size representing how many 
+            integers it will need to hold.  You can then access the integer in that part of the container
+            using the syntax shown below.</p>
+        
+        <h1 class="special">Code:</h1>
+        <pre class="code">
+# declare some variables
+array my_array[10]  # declare an array named my_array to hold 10 integers
+int my_int  # declare an int named my_int
+string my_string  # declare a string named my_string
+bool my_bool  # declare a boolean name my_bool
+
+int i, j = 5, k   # declare integers i, j, and k and initialize j to 5
+
+# the main function
+define main {
+
+    my_bool = false  # assign the value false to my_bool
+    
+    my_array[3] = j  #  assign the integer at the 3rd index of my_array to the value of j
+    
+    my_string = "string"  #  assign to a string value
+    
+    my_int = i + j  # assigning to an int using arithmetic on other ints
+
+}</pre>
+
+    </body>
+</html>
+    

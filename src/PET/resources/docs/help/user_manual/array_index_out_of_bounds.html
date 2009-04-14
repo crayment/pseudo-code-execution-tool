@@ -1,0 +1,32 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Array Index Out of Bounds</h1>
+
+            <p>The index of the array is out of bounds.  This means
+            that you are trying to access a piece of your array
+            that is outside of the defined size of the array.  For
+            example, if you make an array of size 10, it will make
+            array indexes 0 - 9 open to access.  If you then try
+            to access an array index above 9, it will be out of bounds.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+array numbers[10]
+
+define main {
+
+    numbers[20] = 4
+    # This will cause your error, as array index
+    # 20 is not defined
+    
+}</pre>
+        </body>
+    </html>
+    

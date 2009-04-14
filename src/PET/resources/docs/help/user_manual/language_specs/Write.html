@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="../main.css" >
+        
+        <title>Write</title>
+    </head>
+
+    <body>
+        <h1 class="sub_title">Write Command</h1>
+
+        <p>The Write and WriteLine commands are used to print to the terminal.  Write takes space separated
+            arguments.  It will append a space to the start of a variables value when printing it.  The
+            difference between Write and WriteLine is that WriteLine will write a newline character at after
+            all of its arguments.  This will force the content of the next Write command to appear on a new line.
+            WriteLine can also be called with no arguments in which case it will only print the new line 
+            character. </p>
+
+        <h1 class="special">Code:</h1>
+        <pre class="code">
+int i
+define main {
+
+    Write "some text and a variable" i
+    WriteLine "this will be on the same line as the above command"
+    Write "this will be on a new line"
+
+}</pre>
+
+    </body>
+</html>
+    

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="../main.css" >
+        
+        <title>Read</title>
+    </head>
+
+    <body>
+        <h1 class="sub_title">Read Command</h1>
+
+        <p>The Read command is used to capture input from the user and store it in a variable.  Read supports
+            all of the variable types that PET offers.  When entering input it is important to be sure
+            that what is being entered is appropriate for what variable it is going to be stored in.  A
+            runtime error will occur if the input is not valid.  For reading into a boolean will error
+            on any input that doesn't match 'true' or 'false' exactly (without the ').  Example syntax below.</p>
+
+        <h1 class="special">Code:</h1>
+        <pre class="code">
+# declare some variables
+array my_array[10]
+int my_int
+string my_string
+bool my_bool
+
+# the main function
+define main {
+
+	# read into the variables
+	Read my_array[0]
+	Read my_int
+	Read my_string
+	Read my_bool
+
+    # tell the user what they entered
+	WriteLine "You entered" my_array[0] ", " my_int ", " my_string ", " my_bool
+}</pre>
+
+    </body>
+</html>
+    

@@ -1,0 +1,40 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Function Not Defined</h1>
+
+            <p>You have tried to call a function that has not been defined.
+            In order call a function, you must make sure that you have defined
+            it in your code.  A frequent error is a spelling
+            mistake in either your definition or your call to the function.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+define main {
+
+    call PrintOut 
+    # This will cause an error as there is no function named PrintOut
+    # What was probably meant was to call PrintOt, or to have defined
+    # the function as PrintOut
+
+    call WriteOut
+    # This will cause an error as there is no function named WriteOut
+    # It needs to be defined before it can be called
+}
+
+define PrintOt{
+
+    WriteLine "Hello World!"
+
+}
+
+</pre>
+        </body>
+    </html>
+    

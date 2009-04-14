@@ -1,0 +1,31 @@
+    <html>
+        <head>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <link rel="stylesheet" type="text/css" href="main.css" >
+            
+            <title>Title</title>
+        </head>
+
+        <body>
+            <h1 class="sub_title">Missing Closing Bracket</h1>
+
+            <p>When making any function, loop, or if statement, you must have
+            closing brackets for each open bracket.  If you are missing the
+            closing bracket, PET will show you the line with the free open bracket.
+            However, sometimes you could have missed a bracket in a loop in a function,
+            and the bracket at the end of the function will close the loop instead
+            of the function.  Make sure you trace your brackets carefully when you
+            are missing a bracket.</p>
+
+            <h1 class="special">Code:</h1>
+            <pre class="code">
+define main {
+
+    while(a < 10){
+    # This will cause an error as your while is missing a closing bracket, although
+    # PET will tell you that main is missing the closing bracket.
+    
+}</pre>
+        </body>
+    </html>
+    

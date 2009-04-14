@@ -1,0 +1,18 @@
+# declare some variables
+array my_array[10]
+int my_int
+string my_string
+bool my_bool
+
+# the main function
+define main {
+	
+	# read into the variables
+	Read my_array[0]
+	Read my_int
+	Read my_string
+	Read my_bool
+    
+    # tell the user what they entered
+	WriteLine "You entered" my_array[0] ", " my_int ", " my_string ", " my_bool
+}
