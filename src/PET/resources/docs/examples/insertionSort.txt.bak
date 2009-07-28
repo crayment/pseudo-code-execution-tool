@@ -1,7 +1,7 @@
 array numbers[10]
 int numbers_size = 10
 
-fillarray numbers
+FillArray numbers
 
 
 int i, j
@@ -9,7 +9,7 @@ int value
 
 define main {
     
-	writeline "Before Sort"
+	WriteLine "Before Sort"
 	call printNumbers
 	
 	i = 1
@@ -28,7 +28,7 @@ define main {
 		
 	}
 	
-	writeline "After Sort"
+	WriteLine "After Sort"
 	call printNumbers
 	
 }
@@ -38,8 +38,8 @@ define printNumbers{
 
 	i=0
 	while(i<numbers_size){
-		write numbers[i]
+		Write numbers[i]
 		i=i+1
 	}
-	writeline
+	WriteLine
 }

@@ -1,4 +1,4 @@
 
 define main {
-	Write "Hello World!"
+	write "Hello World!"
 }

@@ -25,9 +25,9 @@ public class Parser
     public static Vector lines = new Vector(),  indexes = new Vector();
     public static final String VALID_NAME = "([a-zA-Z_]+)";
     public static final String LINE = "((.*)\\n)|((.*)$)"; // a line or up to the end of the string (so that it doesn't require a new line at the end)
-    public static final String READ = "Read";
-    public static final String WRITE = "Write";
-    public static final String WRITE_LINE = "WriteLine";
+    public static final String READ = "read";
+    public static final String WRITE = "write";
+    public static final String WRITE_LINE = "writeline";
     public static final String STARTS_WITH_READ = READ + "\\s*((.*))";
     public static final String STARTS_WITH_WRITE = WRITE + "(\\s+((.*)))?";
     public static final String STARTS_WITH_WRITE_LINE = WRITE_LINE + "(\\s+((.*)))?";
@@ -55,7 +55,7 @@ public class Parser
     public static final String GET_NEXT_WRITE_ARG = "(\\\"([^\"]*?)\\\"((.*)))|(([a-zA-Z_]+\\s*\\[([^]]+)\\])((.*)))|((([a-zA-Z_]+))((.*)))";
     public static final String GET_NEXT_READ_ARG = "((([a-zA-Z_]+)\\s*\\[([^]]+)\\])((.*)))|((([a-zA-Z_]+))((.*)))";
     public static final String COMMENT = "#";
-    public static final String FILL_ARRAY = "FillArray";
+    public static final String FILL_ARRAY = "fillarray";
     public static final String FILL_ARRAY_STATEMENT = FILL_ARRAY + "\\s*(([a-zA-Z_]+))\\s*$";
 
 

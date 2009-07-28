@@ -23,7 +23,7 @@ define main {
 
 define printNumbers {
 
-	write numbers[i]
+	Write numbers[i]
 	i=i+1
 	
 	if(i < 10){

@@ -8,11 +8,11 @@ bool my_bool
 define main {
 	
 	# read into the variables
-	read my_array[0]
-	read my_int
-	read my_string
-	read my_bool
+	Read my_array[0]
+	Read my_int
+	Read my_string
+	Read my_bool
     
     # tell the user what they entered
-	writeline "You entered" my_array[0] ", " my_int ", " my_string ", " my_bool
+	WriteLine "You entered" my_array[0] ", " my_int ", " my_string ", " my_bool
 }

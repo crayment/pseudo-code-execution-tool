@@ -545,7 +545,7 @@ public class EvalTest
                     });
 
 
-            Assert.assertEquals(Evaluator.eval("first[0] + first[first[0]+1]", true,null), 4);
+            Assert.assertEquals(Evaluator.eval("first[0] + first[first[0]+1]",null), 4);
 
 
             Variables.clearAllVariables();
@@ -594,6 +594,8 @@ public class EvalTest
     {
         try
         {
+            Variables.define("my_bool", true);
+            Assert.assertTrue((Boolean) Evaluator.eval("not my_bool",  null) == false);
             Assert.assertTrue((Boolean) Evaluator.eval("(1+(2*3))+(5*(3)) == 11 * 4 / 2",null) == true);
             Assert.assertTrue((Boolean) Evaluator.eval("-(2+-3-7)/(8*2-12)==2",null) == true);
             Assert.assertTrue(Evaluator.eval("5 - (- - 5 + 4)",null).equals(new Integer(-4)));

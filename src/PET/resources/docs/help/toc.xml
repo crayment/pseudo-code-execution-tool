@@ -11,10 +11,10 @@
       <tocitem text="Comments"       target="user_manual/language_specs/Comments.html"/>
       <tocitem text="If Else"       target="user_manual/language_specs/if.html"/>
       <tocitem text="While"       target="user_manual/language_specs/while.html"/>
-      <tocitem text="Write"       target="user_manual/language_specs/Write.html"/>
-      <tocitem text="Read"       target="user_manual/language_specs/Read.html"/>
+      <tocitem text="write"       target="user_manual/language_specs/Write.html"/>
+      <tocitem text="read"       target="user_manual/language_specs/Read.html"/>
       <tocitem text="Functions"       target="user_manual/language_specs/functions.html"/>
-      <tocitem text="FillArray"       target="user_manual/language_specs/FillArray.html"/>
+      <tocitem text="fillarray"       target="user_manual/language_specs/FillArray.html"/>
       <tocitem text="Keywords"       target="user_manual/language_specs/Keywords.html"/>
   </tocitem>
   <tocitem text="Error help files">
@@ -51,6 +51,6 @@
       <tocitem text="Invalid string assignment" target="user_manual/invalid_string_assignment.html"/>
       <tocitem text="Invalid string declaration" target="user_manual/invalid_string_declaration.html"/>
       <tocitem text="Invalid user input" target="user_manual/invalid_user_input.html"/>
-      <tocitem text="Invalid FillArray line" target="user_manual/invalid_fill_array.html"/>
+      <tocitem text="Invalid fillarray line" target="user_manual/invalid_fill_array.html"/>
   </tocitem>
 </toc>

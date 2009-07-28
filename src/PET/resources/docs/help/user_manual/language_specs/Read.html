@@ -7,12 +7,12 @@
     </head>
 
     <body>
-        <h1 class="sub_title">Read Command</h1>
+        <h1 class="sub_title">read Command</h1>
 
-        <p>The Read command is used to capture input from the user and store it in a variable.  Read supports
+        <p>The read command is used to capture input from the user and store it in a variable.  read supports
             all of the variable types that PET offers.  When entering input it is important to be sure
             that what is being entered is appropriate for what variable it is going to be stored in.  A
-            runtime error will occur if the input is not valid.  For reading into a boolean will error
+            runtime error will occur if the input is not valid.  Reading into a boolean variable will error
             on any input that doesn't match 'true' or 'false' exactly (without the ').  Example syntax below.</p>
 
         <h1 class="special">Code:</h1>
@@ -27,13 +27,13 @@ bool my_bool
 define main {
 
 	# read into the variables
-	Read my_array[0]
-	Read my_int
-	Read my_string
-	Read my_bool
+	read my_array[0]
+	read my_int
+	read my_string
+	read my_bool
 
     # tell the user what they entered
-	WriteLine "You entered" my_array[0] ", " my_int ", " my_string ", " my_bool
+	writeline "You entered" my_array[0] ", " my_int ", " my_string ", " my_bool
 }</pre>
 
     </body>

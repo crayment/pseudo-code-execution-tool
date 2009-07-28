@@ -12,26 +12,26 @@
         <p>The while expression is used for looping through the same set of lines of code as long as a
             condition is met.  The while block takes an argument that must evaluate to a boolean to be valid.
             As long as the argument of a while block evaluates to true, it will keep looping forever.  When
-            the last line in a while block is executed it checks evaluates the argument again and if it
-            is still true it executes the block of code again.  Be careful because if you are not you can
-            write while loops that never stop.</p>
+            the last line in a while block is executed it evaluates the argument again and if it
+            is still true it executes the block of code again.  Be carefull to be sure that the argument will
+            eventually evaluate to false to avoid infinite loops.</p>
 
         <h1 class="special">Code:</h1>
         <pre class="code">
 int i
 bool a, b
-define main(){
+define main{
 
-    while(a || b) {
-        # anything in here will be executed 
+    while(a or b) {
+        # anything in here will be executed
         # over and over until a and b both become false
         b = false
         a = b
     }
-    
+
     while(true) {
         # an infinite loop.
-        # this loop will loop for ever. 
+        # this loop will loop for ever.
     }
 
 }</pre>

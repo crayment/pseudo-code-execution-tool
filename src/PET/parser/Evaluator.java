@@ -970,6 +970,9 @@ public class Evaluator
             m = Pattern.compile(HAS_NOT).matcher(expr);
             if (m.find())
             {
+                if(Variables.isDefined(m.group(2)) && Variables.get(m.group(2)) instanceof Boolean) {
+                    return !(Boolean)(Variables.get(m.group(2)));
+                }
                 String[] values = negationHelper(m.group(2));
                 if (debug)
                 {

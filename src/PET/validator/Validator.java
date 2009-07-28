@@ -161,7 +161,7 @@ public class Validator {
     }
     
     public static void validateQuotesForString(String value, Highlight h) {
-        if (value.trim().substring(1, value.length() - 1).contains("\"")) {
+        if (value.trim().substring(1, value.trim().length() - 1).contains("\"")) {
             Errors.add(Errors.createQuoteInStringError(h));
             return;
         }
@@ -976,6 +976,9 @@ public class Validator {
             }
             m = Pattern.compile(Evaluator.HAS_NOT).matcher(expr);
             m.find();
+            if(Variables.isDefined(m.group(2)) && Variables.get(m.group(2)) instanceof Boolean) {
+                    return null;
+                }
             String[] values = negationHelper(m.group(2), h);
             if(values == null)
                 return null;

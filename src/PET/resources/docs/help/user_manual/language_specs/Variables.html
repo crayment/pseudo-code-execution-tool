@@ -9,25 +9,29 @@
     <body>
         <h1 class="sub_title">Variables</h1>
 
-        <p>There are four types of variables in PET.  There syntax and user are described below.
+        <p>There are four types of variables in PET.  Their syntax and user are described below.
             Variables must be declared and given a name before they can be used.  There are specific
-            rules for where and how this can happen.  First all declarations must appear before the
-            first function definition in your file.  Second a variables name can only consist of lowercase
+            rules for where and how this can happen.  First all variable declarations must appear before the
+            first function definition in your file.  Second a variable name can only consist of lowercase
             letters, uppercase letters, and the underscore symbol (_).  Also variable names can not be any
             restricted keywords such as if or while.  For a list of keywords see the keywords file in this
             section of the user manual.  Any other characters being used in a name will lead to a compile
              error.</p>
 
-        <p>Variable can be assigned to using the = operator.  The left side of the expression must
+        <p>Variables can be assigned to using the = operator.  The left side of the expression must
             evaluate to an appropriate value for the variable.</p>
             
         <p>Variables are declared using the syntax: type name [= value].  The part in [] is optional.
             More than one variable of the same type can be declared on one line by comma separating
             them.</p>
 
+<pre class="code">int a, b, c</pre>
+
+        <p>The above code declares 3 integer variables named a, b, and c.</p>
+
         <p>The first type is declared using the keyword int.  int stands for integer and these types
             can be used to store any integer value that is not extremely high or extremely low.  If you
-            reach the too high or too low mark you will probably receive and invalid number error.</p>
+            reach the too high or too low mark you will probably receive an invalid number error.</p>
             
         <p>The second type is declared using the keyword bool.  bool stand for boolean and is capable of
             storing only the value true or false.  Booleans (or conditionals) can come in handy for program
